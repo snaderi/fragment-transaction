@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-        removeFragment(THIRD_FRAGMENT);
-
         super.onResume();
+        
+        removeFragment(THIRD_FRAGMENT);
     }
 
     private void addFragment(int container, String tag) {
